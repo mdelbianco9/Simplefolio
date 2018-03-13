@@ -142,8 +142,8 @@ small {
 }
 p {
     color: #111111;
-    line-height: 24px;
-    font-size: 14px;
+    line-height: 30px;
+    font-size: 20px;
     font-weight: 100;
     clear: both;
     letter-spacing: 0.4px;
@@ -1473,7 +1473,7 @@ ul.sub-menu li a {
 }
 .services-icon>span {
     font-size: 36px;
-    padding-bottom: 24px;
+    /*padding-bottom: 24px;*/
     clear: both;
     float: left;
 }
