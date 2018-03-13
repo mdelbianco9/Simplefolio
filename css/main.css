@@ -479,6 +479,10 @@ a:hover>span.site-name{
 .slider-images-wrapper {
     z-index: -1;
 }
+
+.slider-images-wrapper img {
+    background-position: cover !important;
+}
 .slider-description {
     position: absolute;
     top: 45%;
@@ -523,6 +527,7 @@ a:hover>span.site-name{
     left: 0;
     top: 0;
     font-weight: normal;
+    color: #fff;
 }
 .cd-words-wrapper b.is-visible {
     position: relative;
