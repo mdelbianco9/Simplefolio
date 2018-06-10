@@ -57,12 +57,16 @@
 
 <body>
 
+
+
     <!-- Preloader -->
     <div class="cover"></div>
 
+    <!-- <div class="paralax"></div> -->
+
     <div class="header">
         <div class="container">
-            <!-- <div class="logo">
+           <!--  <div class="logo">
                 <a href="index.html">
                     <img src="img/logo.png" alt="Logo">
                 </a>
@@ -73,6 +77,7 @@
                 <span class="line"></span>
             </button>
             
+            <!-- When Slider Opens -->
             <div class="menu-wrap" style="background-image: url(img/nav_bg.jpg)">
                 <div class="menu-content">
                     <div class="navigation">
@@ -85,28 +90,9 @@
                     <nav class="menu">
                         <div class="menu-list">
                             <ul>
-                                <li class="menu-item-has-children"><a href="#">Home</a>
-                                    <!-- <ul class="sub-menu">
-                                        <li><a href="index.html">- Default</a></li>
-                                        <li><a href="index-architecture.html">- Architecture</a></li>
-                                        <li><a href="index-full-slider.html">- Slider Full Width</a></li>
-                                    </ul> -->
-                                </li>
+                                <li class="menu-item-has-children"><a href="#">Home</a></li>
                                 <li><a href="#about">About</a></li>
-                                <!-- <li class="menu-item-has-children"><a href="#">Portfolio</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="portfolio-2column.html">-Portfolio 2 Column</a></li>
-                                        <li><a href="portfolio-3column.html">-Portfolio 3 Column</a></li>
-                                        <li><a href="portfolio-masonry.html">-Portfolio Masonry</a></li>
-                                        <li><a href="portfolio-dribbble.html">-Portfolio Dribbble</a></li>
-                                    </ul>
-                                </li> -->
                                 <li class="menu-item-has-children"><a href="#portfolio">Portfolio</a>
-                                    <!-- <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog Default</a></li>
-                                        <li><a href="blog-timeline.html">Blog Timeline</a></li>
-                                        <li><a href="single-blog.html">Blog Single</a></li>
-                                    </ul> -->
                                 </li>
                                 <li><a href="#contact">Contact</a></li>
                             </ul>
@@ -116,11 +102,11 @@
                     <div class="hidden-xs">
                         <div class="menu-social-media">
                             <ul>
-                               <li><a href="https://www.facebook.com/marcus.delbianco" target="_blank"><i class="iconmoon-facebook"></i></a></li>
+                               <li><a class="bigger" href="https://www.instagram.com/mawkus9/" target="_blank"><i class="iconmoon-instagram"></i></a></li>
                               <!--  <li><a href="#"><i class="iconmoon-twitter"></i></a></li>
                                <li><a href="#"><i class="iconmoon-dribbble3"></i></a></li> -->
-                               <li><a href="https://github.com/mdelbianco9" target="_blank"><i class="iconmoon-github"></i></a></li>
-                               <li><a href="https://www.linkedin.com/in/marcus-del-bianco" target="_blank"><i class="iconmoon-linkedin2"></i></a></li>
+                               <li><a class="bigger" href="https://github.com/mdelbianco9" target="_blank"><i class="iconmoon-github"></i></a></li>
+                               <li><a class="bigger" href="https://www.linkedin.com/in/marcus-del-bianco" target="_blank"><i class="iconmoon-linkedin2"></i></a></li>
                             </ul>
                         </div>
 
@@ -148,7 +134,7 @@
                     <div class="cd-headline clip">
                         <span class="cd-words-wrapper">
                             <b class="is-visible">Front-end Devloper</b>
-                            <b>UX Designer</b>
+                            <b>UX Focused</b>
                             <b>From San Francisco</b>
                         </span>
                     </div>
@@ -168,18 +154,16 @@
                     <article id="about">
                         <h1>About Me</h1>
                         <hr>
-                        <h4>I love to code! </h4>
+                        <h4>I love to create!</h4>
                         <p>
-                        <br/>100% Web Surfer - born in San Francisco, lived in Reno/Tahoe for 6 years, moved to Sacramento for 2 years, then spent a full summer couch surfing the coast of California. Now I'm back in San Francisco, coding (mainly JavaScript) and teaching myself new programming skills and languages such as React. I enjoy a challenging coding problem, however, I love digging into the whys and hows of UI/UX problems and concepts.</p>
+                        <br/>Born in San Francisco, studied chemical engineering in Reno, then worked in Sacramento for 2 years. I then spent a full summer couch surfing the coast of California, enjoying life, nature, and unemployment (I call it a break). Now I'm back in San Francisco, eager to apply my work ethic and problem-solving skills to front-end development. I enjoy a challenging coding problem, interacting with people, and digging into the whys and hows of UI/UX problems and concepts. </p>
                     </article>
                 </div>
             </div>
             <div class="col-md-5 col-md-offset-1 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".3s">
                 <div class="row">
                     <div id="history-images" class="owl-carousel">
-                        <div><img class="img-responsive center-block" src="img/surfing.jpg" alt="About"></div>
-                       <!--  <div><img class="img-responsive center-block" src="img/me.jpg" alt="About"></div> -->
-                        <!-- <div><img class="img-responsive center-block" src="img/about_img3.jpg" alt="About"></div> -->
+                        <div><img class="img-responsive img-circle center-block" src="img/surfing.jpg" alt="About"></div>
                     </div>
                 </div>
             </div>
@@ -193,79 +177,93 @@
         </div>
         <div class="services-home-page">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <div class="services-icon">
                         <span class=""><i class="fab fa-react"></i></span>
                         <hr>
                     </div>
                     <h4>React</h4>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <div class="services-icon">
                         <span class=""><i class="fab fa-js"></i></span>
                         <hr>
                     </div>
                     <h4>JavaScript</h4>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <div class="services-icon">
                         <span class=""><i class="fab fa-angular"></i></span>
                         <hr>
                     </div>
                     <h4>Angular</h4>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <div class="services-icon">
                         <span class=""><i class="fab fa-css3"></i></span>
                         <hr>
                     </div>
                     <h4>CSS3</h4>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <div class="services-icon">
                         <span class=""><i class="fab fa-node"></i></span>
                         <hr>
                     </div>
                     <h4>Node.js</h4>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <div class="services-icon">
                         <span class=""><i class="fab fa-git"></i></span>
                         <hr>
                     </div>
                     <h4>Git</h4>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <div class="services-icon">
                         <span class=""><i class="fab fa-html5"></i></span>
                         <hr>
                     </div>
                     <h4>HTML5</h4>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <div class="services-icon">
                         <span class=""><i class="fab fa-vuejs"></i></span>
                         <hr>
                     </div>
                     <h4>Vue.js</h4>
                 </div>
-                 <div class="col-md-4">
+                 <div class="col-md-2">
                     <div class="services-icon">
                         <span class="">jQ</span>
                         <hr>
                     </div>
                     <h4>JQuery</h4>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <div class="services-icon">
                         <span class=""></i>B</span>
                         <hr>
                     </div>
                     <h4>Bootstrap</h4>
                 </div>
+                <div class="col-md-2">
+                    <div class="services-icon">
+                        <span class=""><i class="fa fa-at"></i></span>
+                        <hr>
+                    </div>
+                    <h4>AJAX</h4>
+                </div>
+                <div class="col-md-2">
+                    <div class="services-icon">
+                        <span class=""><i class="fab fa-autoprefixer"></i></span>
+                        <hr>
+                    </div>
+                    <h4>Axios</h4>
+                </div>
 
-
-                <!-- <div class="col-md-4">
+<!-- 
+                <div class="col-md-4">
                     <div class="services-icon">
                         <span class="icon-globe"></span>
                         <hr>
@@ -309,8 +307,24 @@
                 <div class="row" id="work-grid">
 
                     <!-- Begin of Thumbs Portfolio -->
+                    
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix graphic">
+                        <div class="img img-circle home-portfolio-image">
+                            <img src="img/home-portfolio/img_3.jpg" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <div class="details">
+                                    <span class="title">UI Design & Development</span>
+                                    <span class="info">Angular, JS, jQuery, HTML, CSS</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://southeastpathology.com/" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
-                        <div class="img home-portfolio-image">
+                        <div class="img img-circle home-portfolio-image">
                             <img src="img/home-portfolio/img_1.jpg" alt="Portfolio Item">
                             <div class="overlay-thumb">
                                 <!-- <a href="javascript:void(0)" class="like-product">
@@ -319,7 +333,7 @@
                                     <span class="output">250</span>
                                 </a> -->
                                 <div class="details">
-                                    <span class="title">NewTree</span>
+                                    <span class="title">Brand Recognition</span>
                                     <span class="info">JS, Bootstrap, HTML, CSS</span>
                                 </div>
                                 <span class="btnBefore"></span>
@@ -329,8 +343,29 @@
                         </div>
                     </div>
 
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
+                        <div class="img img-circle home-portfolio-image">
+                            <img src="img/home-portfolio/img_7.jpg" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <!-- <a href="javascript:void(0)" class="like-product">
+                                    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">1024</span>
+                                </a> -->
+                                <div class="details">
+                                    <span class="title">Movie Search Application</span>
+                                    <span class="info">Vue.js, TMDB API, Material Design, Axios, JS</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="http://perpetual-route.surge.sh/" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
                     <div class="col-md-4 col-sm-4 col-xs-12 mix web">
-                        <div class="img home-portfolio-image">
+                        <div class="img img-circle home-portfolio-image">
                             <img src="img/home-portfolio/img_2.jpg" alt="Portfolio Item">
                             <div class="overlay-thumb">
                                 <!-- <a href="javascript:void(0)" class="like-product">
@@ -339,7 +374,7 @@
                                     <span class="output">60</span>
                                 </a> -->
                                 <div class="details">
-                                    <span class="title">SF Dog Parlour</span>
+                                    <span class="title">Local Business</span>
                                     <span class="info">JS, HTML, CSS, AJAX, PHP</span>
                                 </div>
                                 <span class="btnBefore"></span>
@@ -348,46 +383,24 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix graphic">
-                        <div class="img home-portfolio-image">
-                            <img src="img/home-portfolio/img_3.jpg" alt="Portfolio Item">
+
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
+                        <div class="img img-circle home-portfolio-image">
+                            <img src="img/home-portfolio/img_6.jpg" alt="Portfolio Item">
                             <div class="overlay-thumb">
-                                <!-- <a href="javascript:void(0)" class="like-product">
-                                    <i class="ion-ios-heart-outline"></i>
-                                    <span class="like-product">Liked</span>
-                                    <span class="output">1060</span>
-                                </a> -->
                                 <div class="details">
-                                    <span class="title">Southeast Pathology</span>
-                                    <span class="info">Angular, JS, jQuery, HTML, CSS</span>
+                                    <span class="title">Todo App</span>
+                                    <span class="info">Vue.js, JS, HTML, CSS</span>
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="http://rabinowitzwebdesign.com/" target="_blank"></a>
+                                <a class="main-portfolio-link" href="https://mdelbianco9.github.io/TodoApplication/" target="_blank"></a>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
-                        <div class="img home-portfolio-image">
-                            <img src="img/home-portfolio/img_4.jpg" alt="Portfolio Item">
-                            <div class="overlay-thumb">
-                                <!-- <a href="javascript:void(0)" class="like-product">
-                                    <i class="ion-ios-heart-outline"></i>
-                                    <span class="like-product">Liked</span>
-                                    <span class="output">900</span>
-                                </a> -->
-                                <div class="details">
-                                    <span class="title">Demfy Music</span>
-                                    <span class="info">Angular, JS, HTML, CSS</span>
-                                </div>
-                                <span class="btnBefore"></span>
-                                <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="https://mdelbianco9.github.io/demfy/" target="_blank"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
-                        <div class="img home-portfolio-image">
+                        <div class="img img-circle home-portfolio-image">
                             <img src="img/home-portfolio/img_5.jpg" alt="Portfolio Item">
                             <div class="overlay-thumb">
                                 <!-- <a href="javascript:void(0)" class="like-product">
@@ -396,8 +409,8 @@
                                     <span class="output">979</span>
                                 </a> -->
                                 <div class="details">
-                                    <span class="title">Bookly</span>
-                                    <span class="info">Books API, JS, Bootstrap, HTML, CSS</span>
+                                    <span class="title">Google Books API</span>
+                                    <span class="info">AJAX, JS, Bootstrap, HTML, CSS</span>
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
@@ -405,82 +418,27 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
-                        <div class="img home-portfolio-image">
-                            <img src="img/home-portfolio/img_6.jpg" alt="Portfolio Item">
+
+
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix graphic">
+                        <div class="img img-circle home-portfolio-image">
+                            <img src="img/home-portfolio/img_8.jpg" alt="Portfolio Item">
                             <div class="overlay-thumb">
                                 <!-- <a href="javascript:void(0)" class="like-product">
                                     <i class="ion-ios-heart-outline"></i>
                                     <span class="like-product">Liked</span>
-                                    <span class="output">1024</span>
+                                    <span class="output">1060</span>
                                 </a> -->
                                 <div class="details">
-                                    <span class="title">Todo</span>
-                                    <span class="info">Vue.js, JS, HTML, CSS</span>
+                                    <span class="title">NASA Picture of the Day</span>
+                                    <span class="info">React, Redux, JS, HTML, CSS, Axios, NASA API</span>
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="https://mdelbianco9.github.io/Todo-Application/" target="_blank"></a>
+                                <a class="main-portfolio-link" href="http://small-mint.surge.sh/" target="_blank"></a>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
-                        <div class="img home-portfolio-image">
-                            <img src="img/home-portfolio/img_7.jpg" alt="Portfolio Item">
-                            <div class="overlay-thumb">
-                                <a href="javascript:void(0)" class="like-product">
-                                    <i class="ion-ios-heart-outline"></i>
-                                    <span class="like-product">Liked</span>
-                                    <span class="output">2048</span>
-                                </a>
-                                <div class="details">
-                                    <span class="title">STYLE FASHION</span>
-                                    <span class="info">NEW BAG & STYLE FASHION</span>
-                                </div>
-                                <span class="btnBefore"></span>
-                                <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="single-project.html"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
-                        <div class="img home-portfolio-image">
-                            <img src="img/home-portfolio/img_8.jpg" alt="Portfolio Item">
-                            <div class="overlay-thumb">
-                                <a href="javascript:void(0)" class="like-product">
-                                    <i class="ion-ios-heart-outline"></i>
-                                    <span class="like-product">Liked</span>
-                                    <span class="output">256</span>
-                                </a>
-                                <div class="details">
-                                    <span class="title">STYLE FASHION</span>
-                                    <span class="info">NEW BAG & STYLE FASHION</span>
-                                </div>
-                                <span class="btnBefore"></span>
-                                <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="single-project.html"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
-                        <div class="img home-portfolio-image">
-                            <img src="img/home-portfolio/img_9.jpg" alt="Portfolio Item">
-                            <div class="overlay-thumb">
-                                <a href="javascript:void(0)" class="like-product">
-                                    <i class="ion-ios-heart-outline"></i>
-                                    <span class="like-product">Liked</span>
-                                    <span class="output">256</span>
-                                </a>
-                                <div class="details">
-                                    <span class="title">STYLE FASHION</span>
-                                    <span class="info">NEW BAG & STYLE FASHION</span>
-                                </div>
-                                <span class="btnBefore"></span>
-                                <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="single-project.html"></a>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
             <div class="load-more">
@@ -495,6 +453,7 @@
                     <div class="newsletter-left">
                         <div class="newsletter-left-inner">
                             <h1>Contact <b>ME</b></h1>
+                            <h6>I currently live in San Francisco and enjoy spending my time biking, surfing, and capturing photos of this wonderful area.</h6>
                         </div>
                     </div>
                 </div>
@@ -503,9 +462,9 @@
                 <div class="row">
                     <div class="newsletter-right" style="background: url(img/newsletter-bg.jpg)">
                         <div class="newsletter-right-inner">
-                            <form>
-                                <!-- <input type="text" name="newsletter" placeholder="ENTER YOUR EMAIL"> -->
-                                <a class="btn btn-lg btn-danger" href="mailto:marcusdelbianco@yahoo.com">Email Me</a>
+                            <form class="centerMe">
+                                <h4>San Francisco / CA</h4>
+                                <a class="btn btn-lg btnMe" href="mailto:mdelbianco9@gmail.com">Email Me</a>
                             </form>
                         </div>
                     </div>
@@ -519,17 +478,17 @@
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="footer-inner">
                             <div class="footer-content">
-                                <h4>Marcus Del Bianco</h4>
+                                <h3>Marcus Del Bianco</h3>
                                     <address>San Francisco CA, 94134</address>
-                                    <h4>CONTACT INFO</h4>
+                                    <h3>CONTACT INFO</h3>
                                 <p>
                                     
                                     mdelbianco9@gmail.com <br>
                                     
                                 </p>
-                                <a href="#"><i class="iconmoon-github"></i></a>
-                                <a href="#"><i class="iconmoon-linkedin2"></i></a>
-                                <a href="#"><i class="iconmoon-facebook"></i></a>
+                                <a class="bigger" href="https://github.com/mdelbianco9" target="_blank"><i class="iconmoon-github"></i></a>
+                                <a class="bigger" href="https://www.linkedin.com/in/marcus-del-bianco/" target="_blank"><i class="iconmoon-linkedin2"></i></a>
+                                <a class="bigger" href="https://www.instagram.com/mawkus9/" target="_blank"><i class="iconmoon-instagram"></i></a>
                             </div>
                         </div>
                     </div>

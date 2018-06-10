@@ -52,7 +52,10 @@ body {
     overflow-x: hidden !important;
     -webkit-font-smoothing: antialiased;
     font-family: 'Ubuntu', sans-serif;
+    /*background: url('../img/colors.jpg') no-repeat center fixed;*/
+    background-size: cover;
 }
+
 ::-webkit-scrollbar {
     width: 10px;
     height: 5px;
@@ -141,7 +144,7 @@ small {
     font-size: 0.8em;
 }
 p {
-    color: #111111;
+    color: #424242;
     line-height: 30px;
     font-size: 20px;
     font-weight: 100;
@@ -159,7 +162,7 @@ hr {
     float: left;
 }
 h1 {
-    font-size: 24px;
+    font-size: 60px;
     font-weight: bold;
 }
 h2 {
@@ -217,6 +220,12 @@ ul.list {
 ul.sublist {
     padding-left: 35px;
 }
+
+#about h1, h4 {
+    color: #616161 !important;
+}
+
+
 /* =General
 -------------------------------------------------------------- */
 
@@ -258,9 +267,10 @@ ul.sublist {
     margin-bottom: 22px;
 }
 .main-title h1 {
-    font-size: 24px;
+    font-size: 60px;
     font-weight: 700;
     margin: 0;
+    color: #616161 !important;
 }
 .main-title h6 {
     font-family: 'Ubuntu', sans-serif;
@@ -329,7 +339,7 @@ ul.sublist {
     cursor: pointer;
     width: 50px;
     height: 50px;
-    background-color: #333;
+    background-color: #26C6DA;
     text-align: center;
     color: #fff;
     z-index: 9;
@@ -499,7 +509,7 @@ a:hover>span.site-name{
 }
 .slider-description-inner h1 span {
     font-family: 'azedolight';
-    background: #7beec7;
+    background: #79cce8b3;
     padding: 22px;
     font-weight: 100;
     margin-left: 10px;
@@ -1289,6 +1299,7 @@ ul.sub-menu li a {
     transition-duration: 0.9s;
     text-decoration: none;
     line-height: 42px;
+    margin-top: 15px;
 }
 .show-menu .content::before {
     opacity: 1;
@@ -1300,7 +1311,8 @@ ul.sub-menu li a {
 .main-menu-indicator {
     display: block;
     border: none;
-    padding: 0;
+    /*padding-left: 177%;*/
+    right: 60px;
     cursor: pointer;
     z-index: 1000;
     height: 62px;
@@ -1308,7 +1320,7 @@ ul.sub-menu li a {
     background: transparent;
     outline: 0;
     float: right;
-    position: relative;
+    position: fixed;
     margin: 17px 0 17px 0;
 }
 .main-menu-indicator:hover {
@@ -1320,21 +1332,22 @@ ul.sub-menu li a {
     display: block;
     position: absolute;
     width: 25px;
-    height: 2px;
+    height: 3px;
     top: 32px;
     left: 0;
     right: 0;
     margin: auto;
-    background: #545454;
+    background: #26C6DA;
 }
+
 .main-menu-indicator>span:before,
 .main-menu-indicator>span:after {
     transition: all 0.2s ease 0s;
     position: absolute;
     content: '';
-    width: 25px;
-    height: 2px;
-    background: #545454;
+    width: 40px;
+    height: 3px;
+    background: #79cce8b3;
     left: 0;
 }
 .main-menu-indicator>span:after {
@@ -1449,6 +1462,10 @@ ul.sub-menu li a {
     line-height: normal;
 }
 
+.btnMe {
+    background-color: #F50057;
+    color: white;
+}
 
 /* =Home Content
 -------------------------------------------------------------- */
@@ -1476,6 +1493,7 @@ ul.sub-menu li a {
     /*padding-bottom: 24px;*/
     clear: both;
     float: left;
+    cursor: crosshair;
 }
 .services-icon>hr {
     float: left;
@@ -1484,7 +1502,7 @@ ul.sub-menu li a {
 .newsletter-left {
     height: 325px;
     width: 100%;
-    background-color: #7beec7;
+    background-color: #79cce8b3;
     display: table;
     text-align: center;
 }
@@ -1498,21 +1516,25 @@ ul.sub-menu li a {
     text-align: left;
     font-size: 30px;
     font-weight: 100;
-    color: #111111;
+    color: #616161 !important;
     line-height: 40px;
 }
+
+
 .newsletter-right {
     position: relative;
     height: 325px;
     width: 100%;
-    background-color: #7beec7;
+    background-color: #616161;
+    border: 30px solid #616161;
     display: table;
     text-align: center;
 }
+
 .newsletter-right-inner {
     position: absolute;
     left: 50px;
-    top: 50px;
+    top: 15px;
     background: #fff;
     width: calc(100% - 100px);
     height: calc(100% - 100px);
@@ -1790,7 +1812,7 @@ ul.client-thumb-2 li a img:hover{
     -o-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
-    background: #86eecb;
+    background: #26C6DA;
     cursor: pointer;
     border: none;
     width: 48px;
@@ -1994,7 +2016,7 @@ ul.client-thumb-2 li a img:hover{
     z-index: 4;
 }
 .img .overlay-thumb:hover {
-    background-color: rgba(123, 238, 199, .9);
+    background-color: #79cce8ed;
 }
 
 .img .overlay-thumb.bg-white:hover{
@@ -2012,17 +2034,20 @@ ul.client-thumb-2 li a img:hover{
 }
 .details span.title,
 .details span.info {
-    color: #111111;
+    color: white;
+    margin-left: 15%;
 }
 .details span.title {
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 1.2pt;
     line-height: 24px;
     text-transform: uppercase;
 }
 .details span.info {
-    font-size: 14px;
+    font-size: 17px;
     text-transform: uppercase;
+    margin-bottom: 23%;
+    margin-left: 15%;
 
 }
 .overlay-thumb .btnBefore,
@@ -2881,7 +2906,7 @@ input[type="text"] {
 .footer {
     width: 100%;
     float: left;
-    background: #f4f4f4;
+    background: #616161;
     min-height: 300px;
 }
 .footer-inner {
@@ -3130,4 +3155,9 @@ a img.aligncenter {
 }
 .alert-danger .alert-link {
   color: #d2d2d2;
+}
+
+.bigger {
+    font-size: 50px;
+    padding-left: 10px;
 }
