@@ -47,6 +47,7 @@
 html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    border: 20px solid #2690cd;
 }
 body {
     overflow-x: hidden !important;
@@ -54,6 +55,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     /*background: url('../img/colors.jpg') no-repeat center fixed;*/
     background-size: cover;
+
 }
 
 ::-webkit-scrollbar {
