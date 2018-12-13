@@ -49,7 +49,7 @@
     <link rel="icon" type="image/ico" href="favicon.ico">
 
     <!-- Fontawesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
     <!-- Modernizer & Respond js -->
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -125,7 +125,7 @@
     </div>
 
     <div class="container">
-        <div class="slider-wrapper">
+        <div class="slider-wrapper ">
             <div class="slider-description">
                 <div class="slider-description-inner">
                     <h1 style="color: #fff">Marcus<span>Del Bianco</span></h1>
@@ -162,28 +162,23 @@
             </div>
             <div class="col-md-5 col-md-offset-1 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".3s">
                 <div class="row">
-                    <div id="history-images" class="owl-carousel">
-                        <div><img class="img-responsive img-circle center-block" src="img/surfing.jpg" alt="About"></div>
+                    <div id="history-images" >
+                        <div class="img-parent"><img class="img-responsive" id="profile-img" src="img/surfing.jpg" alt="About"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container margin-top">
+    <div class="container margin-top skills-section">
         <div class="main-title">
             <h1>Skills</h1>
             <hr>
             <h6></h6>
         </div>
         <div class="services-home-page">
+            <!-- Front-end Skills -->
             <div class="row">
-                <div class="col-md-2">
-                    <div class="services-icon">
-                        <span class=""><i class="fab fa-react"></i></span>
-                        <hr>
-                    </div>
-                    <h4>React</h4>
-                </div>
+                <h2 class="skills-header">Front-end Development</h2>
                 <div class="col-md-2">
                     <div class="services-icon">
                         <span class=""><i class="fab fa-js"></i></span>
@@ -191,48 +186,7 @@
                     </div>
                     <h4>JavaScript</h4>
                 </div>
-                <div class="col-md-2">
-                    <div class="services-icon">
-                        <span class=""><i class="fab fa-angular"></i></span>
-                        <hr>
-                    </div>
-                    <h4>Angular</h4>
-                </div>
-                <div class="col-md-2">
-                    <div class="services-icon">
-                        <span class=""><i class="fab fa-css3"></i></span>
-                        <hr>
-                    </div>
-                    <h4>CSS3</h4>
-                </div>
-                <div class="col-md-2">
-                    <div class="services-icon">
-                        <span class=""><i class="fab fa-node"></i></span>
-                        <hr>
-                    </div>
-                    <h4>Node.js</h4>
-                </div>
-                <div class="col-md-2">
-                    <div class="services-icon">
-                        <span class=""><i class="fab fa-git"></i></span>
-                        <hr>
-                    </div>
-                    <h4>Git</h4>
-                </div>
-                <div class="col-md-2">
-                    <div class="services-icon">
-                        <span class=""><i class="fab fa-html5"></i></span>
-                        <hr>
-                    </div>
-                    <h4>HTML5</h4>
-                </div>
-                <div class="col-md-2">
-                    <div class="services-icon">
-                        <span class=""><i class="fab fa-vuejs"></i></span>
-                        <hr>
-                    </div>
-                    <h4>Vue.js</h4>
-                </div>
+
                  <div class="col-md-2">
                     <div class="services-icon">
                         <span class="">jQ</span>
@@ -240,6 +194,47 @@
                     </div>
                     <h4>JQuery</h4>
                 </div>
+
+                 <div class="col-md-2">
+                    <div class="services-icon">
+                        <span class=""><i class="fab fa-vuejs"></i></span>
+                        <hr>
+                    </div>
+                    <h4>Vue.js</h4>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="services-icon">
+                        <span class=""><i class="fab fa-react"></i></span>
+                        <hr>
+                    </div>
+                    <h4>React</h4>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="services-icon">
+                        <span class=""><i class="fab fa-git"></i></span>
+                        <hr>
+                    </div>
+                    <h4>Git</h4>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="services-icon">
+                        <span class=""><i class="fab fa-html5"></i></span>
+                        <hr>
+                    </div>
+                    <h4>HTML5</h4>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="services-icon">
+                        <span class=""><i class="fab fa-css3"></i></span>
+                        <hr>
+                    </div>
+                    <h4>CSS3</h4>
+                </div>
+
                 <div class="col-md-2">
                     <div class="services-icon">
                         <span class=""></i>B</span>
@@ -247,38 +242,90 @@
                     </div>
                     <h4>Bootstrap</h4>
                 </div>
+
                 <div class="col-md-2">
                     <div class="services-icon">
-                        <span class=""><i class="fa fa-at"></i></span>
+                        <span class=""><i class="fab fa-node"></i></span>
                         <hr>
                     </div>
-                    <h4>AJAX</h4>
-                </div>
-                <div class="col-md-2">
-                    <div class="services-icon">
-                        <span class=""><i class="fab fa-autoprefixer"></i></span>
-                        <hr>
-                    </div>
-                    <h4>Axios</h4>
+                    <h4>Node.js</h4>
                 </div>
 
-<!-- 
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <div class="services-icon">
-                        <span class="icon-globe"></span>
+                        <span class=""><i class="fas fa-external-link-square-alt"></i></span>
                         <hr>
                     </div>
-                    <h4>PLAN OF WORK</h4>
-                    <p>Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because procure him.</p>
+                    <h4>Express.js</h4>
                 </div>
-                <div class="col-md-4">
+
+                <div class="col-md-2">
                     <div class="services-icon">
-                        <span class="icon-paintbrush"></span>
+                        <span class=""><i class="fas fa-leaf"></i></span>
                         <hr>
                     </div>
-                    <h4>ILUSTRATION</h4>
-                    <p>Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because procure him.</p>
-                </div> -->
+                    <h4>MongoDB</h4>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="services-icon">
+                        <span class="">Mg</span>
+                        <hr>
+                    </div>
+                    <h4>Mongoose</h4>
+                </div>
+            </div>
+
+            <!-- Design Skills -->
+            <div class="row">
+                <h2 class="skills-header">Design</h2>
+                <div class="col-md-2">
+                    <div class="services-icon">
+                        <span class=""><i class="fab fa-adobe"></i></span>
+                        <hr>
+                    </div>
+                    <h4>Adobe CC</h4>
+                </div>
+
+                 <div class="col-md-2">
+                    <div class="services-icon">
+                        <span class="">AI</span>
+                        <hr>
+                    </div>
+                    <h4>Adobe Illustrator</h4>
+                </div>
+
+                 <div class="col-md-2">
+                    <div class="services-icon">
+                        <span class="">Ps</span>
+                        <hr>
+                    </div>
+                    <h4>Photoshop</h4>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="services-icon">
+                        <span class="">Ae</span>
+                        <hr>
+                    </div>
+                    <h4>After Effects</h4>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="services-icon">
+                        <span class=""><i class="fab fa-invision"></i></span>
+                        <hr>
+                    </div>
+                    <h4>InVision</h4>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="services-icon">
+                        <span class="">Xd</span>
+                        <hr>
+                    </div>
+                    <h4>Adobe XD</h4>
+                </div>
             </div>
         </div>
     </div>

@@ -395,3 +395,21 @@ jQuery(window).load(function($) {
         jQuery(this).addClass('active');
     });
 });
+
+// navbar to yellow when gets to about me
+// border color of about to yellow
+$(document).ready(function(){       
+   var scroll_start = 0;
+   var startchange = $('html');
+   var offset = startchange.offset();
+    if (startchange.length){
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          // $("html").css('background-color', '#ffe14a'); 
+          $("html").css('border-color', '#ffe14a');
+       }
+   });
+    }
+});
+

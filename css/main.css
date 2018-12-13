@@ -47,7 +47,8 @@
 html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    border: 20px solid #2690cd;
+    /*border: 20px solid #2690cd;*/
+    transition: 2s;
 }
 body {
     overflow-x: hidden !important;
@@ -223,8 +224,33 @@ ul.sublist {
     padding-left: 35px;
 }
 
-#about h1, h4 {
-    color: #616161 !important;
+#about h1, h4, p {
+    color: white !important;
+}
+
+#about {
+    background-color: rgb(51, 198, 216);
+    padding: 2% 4%;
+}
+
+#profile-img {
+box-shadow: 0 8px 6px -6px black!important;
+}
+
+.img-parent{
+    padding: 1%;
+    margin-top: 100px;
+}
+
+
+.skills-section {
+    background-color: #d83374;
+    padding: 5%;
+    box-shadow: 0 8px 6px -6px black!important;
+}
+
+.skills-header {
+    /*color: #fff;*/
 }
 
 
@@ -263,7 +289,7 @@ ul.sublist {
 }
 .main-title {
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .main-title.near-content {
     margin-bottom: 22px;
@@ -272,7 +298,7 @@ ul.sublist {
     font-size: 60px;
     font-weight: 700;
     margin: 0;
-    color: #616161 !important;
+    color: #fff !important;
 }
 .main-title h6 {
     font-family: 'Ubuntu', sans-serif;
